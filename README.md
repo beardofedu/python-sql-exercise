@@ -6,11 +6,11 @@ For an example of an output of the `reportGen.py` file, click [here](output.md)
 
 ## Running the script
 
-The `reportGen.py` file utilizes the `master.sql` file to generate reports for the following three questions:
+The `reportGen.py` file utilizes three queries to generate reports for the following three questions:
 
-  1. What are the most popular three articles of all time?
-  1. Who are the most popular article authors of all time?
-  1. On which days did more than 1% of requests lead to errors?
+  1. What are the most popular three articles of all time? `topArticles.sql`
+  1. Who are the most popular article authors of all time? `topAuthors.sql`
+  1. On which days did more than 1% of requests lead to errors? `totalErrors.sql`
 
 **NOTE:** Before running the `reportGen.py` file, there are some required views.
 
