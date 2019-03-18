@@ -13,6 +13,7 @@ The `reportGen.py` file utilizes three queries to generate reports for the follo
   1. On which days did more than 1% of requests lead to errors? `totalErrors.sql`
 
 **NOTE:** Before running the `reportGen.py` file, there are some required views.
+**NOTE:** Modify the `reportGen.py` file with your user and password. 
 
 ## Views Needed
 
