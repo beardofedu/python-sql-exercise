@@ -2,8 +2,8 @@ import sys
 import psycopg2
 
 try:
-    conn = psycopg2.connect(user="beard",
-                            password="beard",
+    conn = psycopg2.connect(user="USER",
+                            password="PASSWORD",
                             host="localhost",
                             port="5432",
                             database="news")
